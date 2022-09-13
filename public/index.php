@@ -4,7 +4,7 @@
  * Laravel - A PHP Framework For Web Artisans
  *
  * @package  Laravel
- * @author  Hasan Hajjar
+ * @author  Eng Hasan Hajjar
  */
 
 /*
