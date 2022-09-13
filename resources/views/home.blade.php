@@ -17,31 +17,31 @@
           <div class="vert-category col-md-3 col-sm-2 ">
                   <ul>
                       <li>
-                          <a href="http://localhost/products?category=1%257C%25D0%2590%25D1%2580%25D1%258C%25D1%2581%2B%25D0%25B0%25D1%2580%25D1%2587%25D0%25B8%25D0%25BB%25D0%25B3%25D0%25B0%25D0%25B0">Арьс арчилгаа</a>
+                          <a href="http://localhost/products?category=1%257C%25D0%2590%25D1%2580%25D1%258C%25D1%2581%2B%25D0%25B0%25D1%2580%25D1%2587%25D0%25B8%25D0%25BB%25D0%25B3%25D0%25B0%25D0%25B0">Skin care</a>
 
                       </li>
                       <li>
-                          <a href="http://localhost/products?category=2%257C%25D0%259D%25D2%25AF%25D2%25AF%25D1%2580%2B%25D0%25B1%25D1%2583%25D0%25B4%25D0%25B0%25D0%25BB%25D1%2582">Нүүр будалт</a>
+                          <a href="http://localhost/products?category=2%257C%25D0%259D%25D2%25AF%25D2%25AF%25D1%2580%2B%25D0%25B1%25D1%2583%25D0%25B4%25D0%25B0%25D0%25BB%25D1%2582">make up</a>
 
                       </li>
                       <li>
-                          <a href="http://localhost/products?category=3%257C%25D2%25AE%25D1%2581%2B%25D0%25B1%25D0%25B8%25D0%25B5%2B%25D0%25B0%25D1%2580%25D1%2587%25D0%25B8%25D0%25BB%25D0%25B3%25D0%25B0%25D0%25B0">Үс / бие арчилгаа</a>
+                          <a href="http://localhost/products?category=3%257C%25D2%25AE%25D1%2581%2B%25D0%25B1%25D0%25B8%25D0%25B5%2B%25D0%25B0%25D1%2580%25D1%2587%25D0%25B8%25D0%25BB%25D0%25B3%25D0%25B0%25D0%25B0">Hair / body care</a>
 
                       </li>
                       <li>
-                          <a href="http://localhost/products?category=4%257C%25D2%25AE%25D0%25BD%25D1%258D%25D1%2580%25D1%2582%25D1%258D%25D0%25B9%2B%25D1%2583%25D1%2581">Үнэртэй ус</a>
+                          <a href="http://localhost/products?category=4%257C%25D2%25AE%25D0%25BD%25D1%258D%25D1%2580%25D1%2582%25D1%258D%25D0%25B9%2B%25D1%2583%25D1%2581">Perfume</a>
 
                       </li>
                       <li>
-                          <a href="http://localhost/products?category=5%257C%25D0%25AD%25D1%2580%25D2%25AF%25D2%25AF%25D0%25BB%2B%25D0%25BC%25D1%258D%25D0%25BD%25D0%25B4">Эрүүл мэнд</a>
+                          <a href="http://localhost/products?category=5%257C%25D0%25AD%25D1%2580%25D2%25AF%25D2%25AF%25D0%25BB%2B%25D0%25BC%25D1%258D%25D0%25BD%25D0%25B4">Health</a>
 
                       </li>
                       <li>
-                          <a href="http://localhost/products?category=5%257C%25D0%25AD%25D1%2580%25D2%25AF%25D2%25AF%25D0%25BB%2B%25D0%25BC%25D1%258D%25D0%25BD%25D0%25B4">Багс</a>
+                          <a href="http://localhost/products?category=5%257C%25D0%25AD%25D1%2580%25D2%25AF%25D2%25AF%25D0%25BB%2B%25D0%25BC%25D1%258D%25D0%25BD%25D0%25B4">Brushes</a>
 
                       </li>
                       <li>
-                          <a href="http://localhost/products">Бүх бараа</a>
+                          <a href="http://localhost/products">All goods</a>
 
                       </li>
                   </ul>
@@ -96,8 +96,8 @@
         <div class="home-bestselling">
             <div class="col-md-2 bestselling-title">
               <a href="{{ route('products') }}">
-                <span class="b-title">Онцлох бүтээгдэхүүн</span>
-                <span class="b-shopnow">Дэлгэрэнгүй</span>
+                <span class="b-title">Featured products</span>
+                <span class="b-shopnow">More</span>
               </a>
             </div>
             <div class="col-md-10 bestselling-product">
@@ -112,37 +112,37 @@
 
         <div class="col-lg-3 prodsec">
             <div class="prodsectobgcolor">
-                <p class="prodsecto">Нүүр будалт</p>
+                <p class="prodsecto">make up</p>
 
             </div>
             <div class="row trend-cat">
                 <ul>
                     <li>
-                        <a href="http://localhost/products?category=1%257C%25D0%2590%25D1%2580%25D1%258C%25D1%2581%2B%25D0%25B0%25D1%2580%25D1%2587%25D0%25B8%25D0%25BB%25D0%25B3%25D0%25B0%25D0%25B0">Арьс арчилгаа</a>
+                        <a href="http://localhost/products?category=1%257C%25D0%2590%25D1%2580%25D1%258C%25D1%2581%2B%25D0%25B0%25D1%2580%25D1%2587%25D0%25B8%25D0%25BB%25D0%25B3%25D0%25B0%25D0%25B0">Skin care</a>
 
                     </li>
                     <li>
-                        <a href="http://localhost/products?category=2%257C%25D0%259D%25D2%25AF%25D2%25AF%25D1%2580%2B%25D0%25B1%25D1%2583%25D0%25B4%25D0%25B0%25D0%25BB%25D1%2582">Нүүр будалт</a>
+                        <a href="http://localhost/products?category=2%257C%25D0%259D%25D2%25AF%25D2%25AF%25D1%2580%2B%25D0%25B1%25D1%2583%25D0%25B4%25D0%25B0%25D0%25BB%25D1%2582">make up</a>
 
                     </li>
                     <li>
-                        <a href="http://localhost/products?category=3%257C%25D2%25AE%25D1%2581%2B%25D0%25B1%25D0%25B8%25D0%25B5%2B%25D0%25B0%25D1%2580%25D1%2587%25D0%25B8%25D0%25BB%25D0%25B3%25D0%25B0%25D0%25B0">Үс / бие арчилгаа</a>
+                        <a href="http://localhost/products?category=3%257C%25D2%25AE%25D1%2581%2B%25D0%25B1%25D0%25B8%25D0%25B5%2B%25D0%25B0%25D1%2580%25D1%2587%25D0%25B8%25D0%25BB%25D0%25B3%25D0%25B0%25D0%25B0">Hair / body care</a>
 
                     </li>
                     <li>
-                        <a href="http://localhost/products?category=4%257C%25D2%25AE%25D0%25BD%25D1%258D%25D1%2580%25D1%2582%25D1%258D%25D0%25B9%2B%25D1%2583%25D1%2581">Үнэртэй ус</a>
+                        <a href="http://localhost/products?category=4%257C%25D2%25AE%25D0%25BD%25D1%258D%25D1%2580%25D1%2582%25D1%258D%25D0%25B9%2B%25D1%2583%25D1%2581">Perfume</a>
 
                     </li>
                     <li>
-                        <a href="http://localhost/products?category=5%257C%25D0%25AD%25D1%2580%25D2%25AF%25D2%25AF%25D0%25BB%2B%25D0%25BC%25D1%258D%25D0%25BD%25D0%25B4">Эрүүл мэнд</a>
+                        <a href="http://localhost/products?category=5%257C%25D0%25AD%25D1%2580%25D2%25AF%25D2%25AF%25D0%25BB%2B%25D0%25BC%25D1%258D%25D0%25BD%25D0%25B4">Health</a>
 
                     </li>
                     <li>
-                        <a href="http://localhost/products?category=5%257C%25D0%25AD%25D1%2580%25D2%25AF%25D2%25AF%25D0%25BB%2B%25D0%25BC%25D1%258D%25D0%25BD%25D0%25B4">Багс</a>
+                        <a href="http://localhost/products?category=5%257C%25D0%25AD%25D1%2580%25D2%25AF%25D2%25AF%25D0%25BB%2B%25D0%25BC%25D1%258D%25D0%25BD%25D0%25B4">Brushes</a>
 
                     </li>
                     <li>
-                        <a href="http://localhost/products">Бүх бараа</a>
+                        <a href="http://localhost/products">All goods</a>
 
                     </li>
                 </ul>
@@ -181,8 +181,8 @@
         <div class="home-bestselling">
           <div class="col-md-2 bestselling-title">
             <a href="{{ route('products') }}">
-              <span class="b-title">Санал болгох бүтээгдэхүүн</span>
-              <span class="b-shopnow">Дэлгэрэнгүй</span>
+              <span class="b-title">Recommended products</span>
+              <span class="b-shopnow">More</span>
             </a>
           </div>
           <div class="col-md-10 bestselling-product">
