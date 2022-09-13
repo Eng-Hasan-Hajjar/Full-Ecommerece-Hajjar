@@ -16,7 +16,7 @@
             
             <div class="footer-right">
                 <h3 class="widget-title heading-title">
-                        Сошиал                  </h3>
+                        Со              </h3>
                 <div class="line line-30"></div>
                 <ul>
                     <li>
@@ -46,7 +46,7 @@
 
         <div id="copy-right" class="copy-right col-sm-12">
             <div class="col-sm-8">
-                Copyright ©. 2017 All Right Reserved. Techstar Agency.
+                Copyright ©. 2020 All Right Reserved. Eng Hasan Hajjar.
             </div>
 
         </div>
