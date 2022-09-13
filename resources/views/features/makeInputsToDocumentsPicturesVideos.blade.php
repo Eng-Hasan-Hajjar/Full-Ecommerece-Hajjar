@@ -2,7 +2,8 @@
 	@foreach($features as $feature)
 		@if($force || $feature['status']=='active')
 		@if($feature['input_type']!='image' && $feature['input_type']!='document' && $feature['input_type']!='video')
-		<?php     continue; ?>
+		{{!-- 	<!--	<     php continue; ?>  -->  --}}
+			@continue
 		@endif
 		<div class="form-group" ng-show="(typeItem=='{{ $feature['type_products'] }}'||'{{ $feature['type_products'] }}'=='all')">
             

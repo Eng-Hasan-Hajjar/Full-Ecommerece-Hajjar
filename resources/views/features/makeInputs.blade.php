@@ -11,7 +11,8 @@
 
 			@if($feature['input_type']=='image' || $feature['input_type']=='document' || $feature['input_type']=='video')
 
-			<?php continue; ?>
+			{{!-- 	<!--	<     php continue; ?>  -->  --}}
+			@continue
 
 			@endif
 

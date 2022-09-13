@@ -4,7 +4,8 @@
 		@if($force || $feature['status']=='active')
 			{{-- <span>Make inputs with is one value</span> --}}
 			@if($feature['input_type']=='image' || $feature['input_type']=='document' || $feature['input_type']=='video')
-			<?php continue; ?>
+			@continue
+		<!-- 	<php continue; ?>  */-->
 			@endif
 			@if ($force)
 			<div class="form-group">
