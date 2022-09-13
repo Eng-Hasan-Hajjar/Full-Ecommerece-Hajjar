@@ -57,18 +57,18 @@
                         <?php $i=0; ?>
                         @if($key=='categories')
                             @foreach ($filter as $id => $item)
-                                <?php if (5<$i++) {
-    break;
-} ?>
+                                 @if(5<$i++)   @break
+                                 @endif
+ 
                             <li class="text-capitalize" ng-click="refineBy('{{ $key }}',{name:'{{ $item['name'] }}',id:'{{ $item['id'] }}'})"  >{{ $item['name'] }} <span class="badge">{{ $item['qty'] }}</span></li>
       
                             @endforeach
                         @else
                             @foreach ($filter as $item => $count)
-                                <?php if (5<$i++) {
-    break;
-} ?>
-                            <li class="text-capitalize" ng-click="refineBy('{{ $key }}','{{ $item }}')"  >{{ $item }} <span class="badge">{{ $count }}</span></li>
+                                 @if(5<$i++)   @break
+                                 @endif
+                          
+                                 <li class="text-capitalize" ng-click="refineBy('{{ $key }}','{{ $item }}')"  >{{ $item }} <span class="badge">{{ $count }}</span></li>
                             @endforeach
                         @endif
                     </ul>

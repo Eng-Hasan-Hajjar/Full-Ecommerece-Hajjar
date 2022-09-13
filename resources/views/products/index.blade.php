@@ -83,7 +83,9 @@
                             <?php $i=0; ?>
                             @if($key=='category')
                                 @foreach ($filter as $id => $item)
-                                    <?php if (5<$i++){ break; } ?>
+                                    @if(5<$i++)   @break
+                                    @endif
+
                                     <li>
                                         <a href="/products?{{ \Utility::getUrlQueryString($refine, 'category', urlencode($item['id'].'|'.$item['name'])) }}">
                                             {{ ucfirst($item['name']) }} <small><span class="">({{ $item['qty'] }})</span></small>
@@ -94,7 +96,8 @@
                             @else
 
                                 @foreach ($filter as $item => $count)
-                                    <?php if (5<$i++){ break; } ?>
+                                    @if(5<$i++)   @break
+                                    @endif
                                     <li>
                                         <a href="/products?{{ \Utility::getUrlQueryString($refine, $key, urlencode($item)) }}">
                                           {{ ucfirst($item) }} <span class="">({{ $count }})</span>

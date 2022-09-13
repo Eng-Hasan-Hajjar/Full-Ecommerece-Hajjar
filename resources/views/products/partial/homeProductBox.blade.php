@@ -45,7 +45,7 @@ if (isset($productSuggestion)) {
                         {!! Form::close() !!}
                     @endif
                 </div>
-                <span id="card_text">Сагс</span>
+                <span id="card_text">Basket</span>
             </div>
 
             {{-- wish list (only products not free) --}}
